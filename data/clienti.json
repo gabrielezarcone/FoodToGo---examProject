@@ -1,0 +1,46 @@
+[
+		{
+				"username": "mrrs",
+				"preferences": [1,2,3],
+				"nome": "Mario",
+				"cognome": "Rossi",
+				"pagamento": {
+						"tipo": "carta di credito",
+						"numero": "298300019838001"
+				},
+				"carrello":[
+						{
+								"piatto": "patatine",
+								"prezzo": 2
+						},
+						{
+								"piatto": "hamburger",
+								"prezzo": 7
+						}
+				]
+		},
+		{
+				"username": "anbn",
+				"preferences": [2,2,3],
+				"nome": "Anna",
+				"cognome": "Bianchi",
+				"pagamento": {
+						"tipo": "carta prepagata",
+						"numero": "9939287347892000001"
+				},
+				"carrello":[
+				]
+		},
+		{
+				"username": "plgl",
+				"preferences": [2,2,3],
+				"nome": "Paolo",
+				"cognome":"Gialli", 
+				"pagamento": {
+						"tipo": "carta prepagata",
+						"numero": "9939287347892000001"
+				},
+				"carrello":[
+				]
+		}
+]
