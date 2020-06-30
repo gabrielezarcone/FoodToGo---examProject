@@ -1,0 +1,23 @@
+[
+		{
+				"nome": "patatine",
+				"ingredienti": ["patate","sale","olio"],
+				"foto": "media/patatine.jpeg",
+				"tipologia": "contorno",
+				"prezzo": 2
+		},
+		{
+				"nome": "hamburger",
+				"ingredienti": ["carne","lattuga","pomodoro","sale","maionese"],
+				"foto": "media/hamburger.jpeg",
+				"tipologia": "panino",
+				"prezzo": 6
+		},
+		{
+				"nome": "cheeseburger",
+				"ingredienti": ["carne","lattuga","pomodoro","sale","maionese","cheddar"],
+				"foto": "media/hamburger.jpeg",
+				"tipologia": "panino",
+				"prezzo": 7
+		}
+]
