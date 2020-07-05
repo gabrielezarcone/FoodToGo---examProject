@@ -6,6 +6,7 @@
             2,
             3
          ],
+				 "password":"mrrs",
          "nome":"Mario",
          "cognome":"Rossi",
          "pagamento":{
@@ -29,6 +30,7 @@
             2,
             3
          ],
+				 "password":"anbn",
          "nome":"Anna",
          "cognome":"Bianchi",
          "pagamento":{
@@ -45,6 +47,7 @@
             2,
             3
          ],
+				 "password":"plgl",
          "nome":"Paolo",
          "cognome":"Gialli",
          "pagamento":{
@@ -63,6 +66,7 @@
             2,
             1
          ],
+				 "password": "lcvr",
          "nome":"Luca",
          "cognome":"Verdi"
       }
