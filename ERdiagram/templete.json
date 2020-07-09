@@ -1,0 +1,74 @@
+{
+		"cliente": {
+				"username": "mrrs",
+				"preferences": [1,2,3],
+				"nome": "Mario",
+				"cognome": "Rossi",
+				"pagamento": {
+						"tipo": "carta di credito",
+						"numero": "298300019838001"
+				},
+				"carrello":[
+						{
+								"piatto": "patatine",
+								"prezzo": 2
+						},
+						{
+								"piatto": "hamburger",
+								"prezzo": 7
+						}
+				]
+		},
+		"ristoratore": {
+				"username": "lcvr",
+				"preferences": [4,2,1],
+				"nome": "Luca",
+				"cognome": "Verdi"
+		},
+		"piatto":{
+				"nome": "patatine",
+				"ingredienti": ["patate","sale","olio"],
+				"foto": "media/patatine.jpeg",
+				"tipologia": "contorno",
+				"prezzo": 2
+		},
+		"ristorante":{
+				"nome": "Al Chicco D'Oro",
+				"proprietario": "lcvr",
+				"tel": "026771345",
+				"p_IVA":"09388490294",
+				"indirizzo": "viale Monza, Milano",
+				"recensioni":[
+						{
+								"cliente": "mrrs",
+								"testo": "Molto buono!"
+						},
+						{
+								"cliente": "anbn",
+								"testo": "Consegna abbastanza veloce"
+						}
+				]
+		},
+		"acquista":[
+				{
+						"cliente": "mrrs",
+						"piatto": "patatine",
+						"data": "Tue Jun 30 2020 16:03:14 GMT+0200 (CEST)"
+				},
+				{
+						"cliente": "anbn",
+						"piatto": "hamburger",
+						"data": "Tue Jun 30 2020 09:20:21 GMT+0200 (CEST)"
+				}
+		],
+		"vende":[
+				{
+						"ristorante": "Al Chicco D'Oro",
+						"piatto": "patatine"
+				},
+				{
+						"ristorante": "Al Chicco D'Oro",
+						"piatto": "hamburger"
+				}
+		]
+}
