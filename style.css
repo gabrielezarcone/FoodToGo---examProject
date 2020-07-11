@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Bangers&family=Fredoka+One&family=Galada&family=Poiret+One&family=Sacramento&display=swap');
+/*
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Galada', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Sacramento', cursive;
+*/
 *{
 		margin: 0;
 		padding: 0;
@@ -28,4 +37,5 @@
 		flex-direction: column;
 		align-items: center;
 }
+
 
