@@ -9,5 +9,14 @@
 		align-items: center;
 		padding: 10px;
 }
+#page{
+		display: flex;		
+		height: 99%;
+}
+#ristoranti_list{
+		background-color: #e8e8e8;	
+		padding: 1%;
+		margin-right: 2%;
+}
 
 
