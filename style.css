@@ -20,6 +20,10 @@ font-family: 'Sacramento', cursive;
 		align-items: center;
 		padding: 10px;
 }
+#header h1{
+		color: white;	
+		font-family: 'Poiret One', cursive;
+}
 
 #page{
 		display: flex;		
