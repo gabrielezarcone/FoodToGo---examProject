@@ -2,21 +2,30 @@
 		margin: 0;
 		padding: 0;
 }
+
 #header{
+		height: 5%;
 		background-color: #f56e6e/*#ad3d4e #3dad84*/;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 10px;
 }
+
 #page{
 		display: flex;		
-		height: 99%;
+		height: 92.5%;
+
 }
 #ristoranti_list{
 		background-color: #e8e8e8;	
 		padding: 1%;
-		margin-right: 2%;
 }
-
+#piatti_list{
+		margin-top: 2%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
 
