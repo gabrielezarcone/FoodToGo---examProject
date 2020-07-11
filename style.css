@@ -1,0 +1,13 @@
+*{
+		margin: 0;
+		padding: 0;
+}
+#header{
+		background-color: #f56e6e/*#ad3d4e #3dad84*/;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+}
+
+
