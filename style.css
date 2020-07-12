@@ -65,3 +65,15 @@ font-family: 'Sacramento', cursive;
 .ristorante:hover{
 		background-color: #e8e8e8;
 }
+
+#name_logo{
+		display: flex;
+		height: 100%;
+		align-items: center;
+}
+#logo{
+		margin: 5px;
+		height: 100%;
+}
+
+
