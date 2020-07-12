@@ -13,8 +13,11 @@
 								<h1>Titolo</h1>
 						</div>
 						<form id="login_form" name="login_form" onsubmit="valid_login()">
-								<input type="radio" name="user_type" value="clienti" required>
-								<input type="radio" name="user_type" value="ristoratori" required>
+								<input id='cliente_radio' type="radio" name="user_type" value="clienti" required>
+								<label id="cliente_btn" for="cliente_radio">Cliente</label>
+								<input id="ristoratore_radio" type="radio" name="user_type" value="ristoratori" required>
+								<label id="ristoratore_btn" for="ristoratore_radio">Ristoratore</label>
+								<br>
 								<input type="text" name="username" placeholder="username" required>
 								<input type="password" name="password" placeholder="password" required>
 								<input type="submit">

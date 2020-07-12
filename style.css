@@ -79,4 +79,25 @@ font-family: 'Sacramento', cursive;
 		height: 100%;
 }
 
+#login_form input[type=text], input[type=password]{
+		border: solid 2px  #e8e8e8;
+		border-radius: 9px;
+		color: black;
+		text-align: center;
+}
+#login_form input[type="radio"] {
+		opacity: 0;	
+		width:0;
+}
+#login_form label {
+		display: inline-block;
+		background-color: #ddd;
+		padding: 4px 11px;
+		font-family: Arial;
+		font-size: 16px;
+		cursor: pointer;
+}
+#login_form input[type="radio"]:checked+label {
+		 background-color: #bbb;
+}
 
