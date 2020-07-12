@@ -22,7 +22,7 @@ font-family: 'Sacramento', cursive;
 }
 #header h1{
 		color: white;	
-		font-family: 'Poiret One', cursive;
+		font-family: 'Fredoka One', cursive;
 }
 
 #page{
@@ -42,4 +42,13 @@ font-family: 'Sacramento', cursive;
 		align-items: center;
 }
 
-
+.ristorante{
+		border-radius: 20px;
+		border: solid;
+		background-color: white;
+		padding: 10px;
+font-family: 'Annie Use Your Telescope', cursive;
+}
+.ristorante:hover{
+		background-color: #e8e8e8;
+}
