@@ -79,6 +79,10 @@ font-family: 'Sacramento', cursive;
 		height: 100%;
 }
 
+#login_form{
+		display:flex;		
+		flex-wrap: wrap;
+}
 #login_form input[type=text], input[type=password]{
 		border: solid 2px  #e8e8e8;
 		border-radius: 9px;
@@ -91,11 +95,13 @@ font-family: 'Sacramento', cursive;
 }
 #login_form label {
 		display: inline-block;
-		background-color: #ddd;
+		background-color: white;
 		padding: 4px 11px;
-		font-family: Arial;
+		margin: 1%;
+		font-family: 'Fredoka One', cursive;
 		font-size: 16px;
 		cursor: pointer;
+		flex-basis: 39%;
 }
 #login_form input[type="radio"]:checked+label {
 		 background-color: #bbb;
