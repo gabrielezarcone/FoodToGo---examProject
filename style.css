@@ -104,6 +104,14 @@ font-family: 'Sacramento', cursive;
 		flex-basis: 39%;
 }
 #login_form input[type="radio"]:checked+label {
-		 background-color: #bbb;
+		transition: background-color 1.5s ease-out;
+}
+#login_form input[type="radio"]:checked+label#cliente_btn {
+		background-color: #62c67b;
+		color: white;
+}
+#login_form input[type="radio"]:checked+label#ristoratore_btn {
+		background-color: #5182d6;
+		color: white;
 }
 
