@@ -59,7 +59,7 @@ font-family: 'Sacramento', cursive;
 		border-radius: 20px;
 		text-align: center;
 		border-radius: 20px;
-		box-shadow: 2px 2px 3px black;
+		box-shadow: 2px 2px 7px #bfbfbf;/*black;*/
 		border: solid 1px #e8e8e8;
 		background-color: white;
 		padding: 10px;
