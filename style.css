@@ -84,6 +84,7 @@ font-family: 'Sacramento', cursive;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: flex-start;
+		width: 30%;
 }
 #login_form input[type=text], input[type=password]{
 		border: solid 1px  black;
@@ -91,7 +92,7 @@ font-family: 'Sacramento', cursive;
 		color: black;
 		text-align: center;
 		margin: 0 1% 1% 1%;
-		flex-basis: 44%;
+		flex-basis: 39%;
 }
 #login_form input[type=submit]{
 		display:none;
