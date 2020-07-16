@@ -2,26 +2,34 @@
 <script>
 		upload_initial_state();
 </script>
-
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
 <html>
 		<head></head>
 		<body>
 				<div id="header">
-						<img id="logo">
-						<h1>Titolo</h1>
+						<div id='name_logo'>
+								<img id="logo" src="media/logo.svg">
+								<h1>Titolo</h1>
+						</div>
 						<form id="login_form" name="login_form" onsubmit="valid_login()">
-								<input type="radio" name="user_type" value="clienti" required>
-								<input type="radio" name="user_type" value="ristoratori" required>
+								<input id='cliente_radio' type="radio" name="user_type" value="clienti" required>
+								<label id="cliente_btn" for="cliente_radio">Cliente</label>
+								<input id="ristoratore_radio" type="radio" name="user_type" value="ristoratori" required>
+								<label id="ristoratore_btn" for="ristoratore_radio">Ristoratore</label>
+								<br>
 								<input type="text" name="username" placeholder="username" required>
 								<input type="password" name="password" placeholder="password" required>
 								<input type="submit">
 						</form>
 				</div>
-				<div id="ristoranti_list">
-						<script>list_ristoranti();</script>
-				</div>
-				<div id="piatti_list">
-						<script>list_piatti_rist('Al Chicco D\'Oro'); //provvisorio, poi sarà resop dinamico con il click sul ristorante</script> 
+				<div id="page">
+						<div id="ristoranti_list">
+								<script>list_ristoranti();</script>
+						</div>
+						<div id="piatti_list">
+								<script>list_piatti_rist('Al Chicco D\'Oro'); //provvisorio, poi sarà resop dinamico con il click sul ristorante</script> 
+						</div>
 				</div>
 		</body>
 </html>
