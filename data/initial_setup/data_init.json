@@ -69,6 +69,16 @@
 				 "password": "lcvr",
          "nome":"Luca",
          "cognome":"Verdi"
+      },
+      "mcrs":{
+         "preferences":[
+            4,
+            2,
+            1
+         ],
+				 "password": "mcrs",
+         "nome":"Marco",
+         "cognome":"Rossi"
       }
    },
    "ristoranti":{
@@ -85,6 +95,30 @@
             {
                "cliente":"anbn",
                "testo":"Consegna abbastanza veloce"
+            }
+         ]
+      },
+      "Da nonna papera":{
+         "proprietario":"lcvr",
+         "tel":"0267323245",
+         "p_IVA":"09384522235",
+         "indirizzo":"via Milano, Roma",
+         "recensioni":[
+            {
+               "cliente":"anbn",
+               "testo":"Insomma...."
+            }
+         ]
+      },
+      "McDonald":{
+         "proprietario":"lcvr",
+         "tel":"026441223",
+         "p_IVA":"929233499988",
+         "indirizzo":"via Roma, Milano",
+         "recensioni":[
+            {
+               "cliente":"anbn",
+               "testo":"Sempre le solite cose"
             }
          ]
       }
