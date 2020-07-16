@@ -91,12 +91,10 @@ font-family: 'Sacramento', cursive;
 		color: black;
 		text-align: center;
 		margin: 0 1% 1% 1%;
-		flex-basis: 40%;
+		flex-basis: 44%;
 }
 #login_form input[type=submit]{
-		background-color: blue;
-		color: white;	
-		border: solid 1px  black;
+		display:none;
 }
 
 #login_form input[type="radio"] {
