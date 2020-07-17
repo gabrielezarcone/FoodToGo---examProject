@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Bangers&family=Fredoka+One&family=Galada&family=Poiret+One&family=Sacramento&display=swap');
+/*
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Galada', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Sacramento', cursive;
+*/
+*{
+		margin: 0;
+		padding: 0;
+}
+
+#header{
+		height: 5%;
+		background-color: #f56e6e/*#ad3d4e #3dad84*/;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px;
+}
+#header h1{
+		color: white;	
+		font-family: 'Fredoka One', cursive;
+}
+
+#page{
+		display: flex;		
+		height: 92.5%;
+
+}
+#ristoranti_list{
+		background-color: #e8e8e8;	
+		padding: 1%;
+}
+#piatti_list{
+		margin-top: 2%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.piatto{
+		width: 80%;
+		text-align: center;
+		border-radius: 20px;
+		box-shadow: 2px 2px 3px #cccccc;
+		border: solid 1px #e8e8e8;
+		padding: 30px;
+		margin: 1%;
+		font-family: 'Poiret One', cursive;
+}
+.piatto:hover{
+		background-color: #e8e8e8;
+}
+
+.ristorante{
+		border-radius: 20px;
+		text-align: center;
+		border-radius: 20px;
+		box-shadow: 2px 2px 7px #bfbfbf;/*black;*/
+		border: solid 1px #e8e8e8;
+		background-color: white;
+		padding: 10px;
+		font-family: 'Poiret One', cursive;
+		margin: 3%;
+}
+.ristorante:hover{
+		background-color: #e8e8e8;
+}
+
+#name_logo{
+		display: flex;
+		height: 100%;
+		align-items: center;
+}
+#logo{
+		margin: 5px;
+		height: 100%;
+}
+
+#login_form{
+		display:flex;		
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+		width: 30%;
+}
+#login_form input[type=text], input[type=password]{
+		border: solid 1px  black;
+		border-radius: 4px;
+		color: black;
+		text-align: center;
+		margin: 0 1% 1% 1%;
+		flex-basis: 39%;
+}
+#login_form input[type=submit]{
+		display:none;
+}
+
+#login_form input[type="radio"] {
+		opacity: 0;	
+		width:0;
+}
+#login_form label {
+		display: inline-block;
+		background-color: white;
+		padding: 4px 11px;
+		margin: 1%;
+		font-family: 'Fredoka One', cursive;
+		font-size: 16px;
+		cursor: pointer;
+		flex-basis: 39%;
+}
+#login_form input[type="radio"]:checked+label {
+		transition: background-color 1.5s ease-out;
+}
+#login_form input[type="radio"]:checked+label#cliente_btn {
+		background-color: #62c67b;
+		color: white;
+}
+#login_form input[type="radio"]:checked+label#ristoratore_btn {
+		background-color: #5182d6;
+		color: white;
+}
+
