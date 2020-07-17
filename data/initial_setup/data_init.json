@@ -180,6 +180,10 @@
       {
          "ristorante":"Al Chicco D'Oro",
          "piatto":"hamburger"
+      },
+      {
+         "ristorante":"McDonald",
+         "piatto":"cheesburger"
       }
    ]
 }
