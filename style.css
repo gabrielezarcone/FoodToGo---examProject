@@ -125,9 +125,25 @@ font-family: 'Sacramento', cursive;
 		color: white;
 }
 
-.piatto_info{}
+.piatto_info{
+		display: flex;
+		justify-content: space-around;
+		padding-top: 3%;
+}
+.piatto_footer{
+		display: flex;
+		justify-content: flex-end;
+}
 .piatto_ingredienti{}
 .piatto_lista_ingredienti{}
-.piatto_price{}
-.piatto_type{}
+.piatto_price{
+		font-size: 3em;
+}
+.piatto_type{
+		font-size: 1.5em;
+		background-color: #F9EE5E;
+		align-self: flex-end;
+		padding: 0 8px 0 8px;
+		border-radius: 5px;
+}
 .piatto_img{}
