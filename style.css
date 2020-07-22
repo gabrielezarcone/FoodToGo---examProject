@@ -47,7 +47,7 @@ font-family: 'Sacramento', cursive;
 		border-radius: 20px;
 		box-shadow: 2px 2px 3px #cccccc;
 		border: solid 1px #e8e8e8;
-		padding: 30px;
+		padding: 30px 0 30px 0;
 		margin: 1%;
 		font-family: 'Poiret One', cursive;
 }
@@ -125,10 +125,13 @@ font-family: 'Sacramento', cursive;
 		color: white;
 }
 
+.piatto_info_background{
+		padding: 3% 2% 0 2%;
+		opacity: 0%;
+}
 .piatto_info{
 		display: flex;
 		justify-content: space-around;
-		padding-top: 3%;
 }
 .piatto_footer{
 		display: flex;
