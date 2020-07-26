@@ -41,6 +41,10 @@ font-family: 'Sacramento', cursive;
 		flex-direction: column;
 		align-items: center;
 }
+.piatti_list_title{
+		font-family: 'Fredoka One', cursive;
+		color: #545454;
+}
 /*
 .piatto{
 		width: 80%;
