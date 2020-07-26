@@ -163,7 +163,18 @@ font-family: 'Sacramento', cursive;
 		padding: 5px;
 		margin-bottom: 2%;
 }
-.piatto_ingredienti{}
+.piatto_ingredienti{
+		background-color: white;
+		width: 20%;
+		padding: 2% 5% 5%;
+}
+.ingredienti_title{
+		margin: 0 0 2% -40%;
+    padding: 2% 10%;
+		background-color: red;
+		color: white;
+		align-self: flex-start;
+}
 .piatto_lista_ingredienti{}
 .piatto_price{
 		font-size: 3em;
