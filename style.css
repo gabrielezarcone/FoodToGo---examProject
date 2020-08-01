@@ -193,3 +193,12 @@ font-family: 'Sacramento', cursive;
 		border-radius: 5px 5px 20px 5px;
 }
 .piatto_img{}
+
+#ristorante_info{
+		margin: 2% 1%;
+		font-family: 'Poiret One', cursive;
+}
+.rist_info_h1{
+		margin-top: 2%;
+}
+.rist_info_value{}
