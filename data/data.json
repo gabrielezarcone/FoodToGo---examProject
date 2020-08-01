@@ -130,7 +130,7 @@
             "sale",
             "olio"
          ],
-         "foto":"media/patatine.jpeg",
+         "foto":"media/patatine.svg",
          "tipologia":"contorno",
          "prezzo":2
       },
@@ -142,7 +142,7 @@
             "sale",
             "maionese"
          ],
-         "foto":"media/hamburger.jpeg",
+         "foto":"media/hamburger.svg",
          "tipologia":"panino",
          "prezzo":6
       },
@@ -155,7 +155,7 @@
             "maionese",
             "cheddar"
          ],
-         "foto":"media/hamburger.jpeg",
+         "foto":"media/hamburger.svg",
          "tipologia":"panino",
          "prezzo":7
       }
@@ -183,7 +183,7 @@
       },
       {
          "ristorante":"McDonald",
-         "piatto":"cheesburger"
+         "piatto":"cheeseburger"
       }
    ]
 }

@@ -41,19 +41,25 @@ font-family: 'Sacramento', cursive;
 		flex-direction: column;
 		align-items: center;
 }
+.piatti_list_title{
+		font-family: 'Fredoka One', cursive;
+		color: #545454;
+}
+/*
 .piatto{
 		width: 80%;
 		text-align: center;
 		border-radius: 20px;
 		box-shadow: 2px 2px 3px #cccccc;
 		border: solid 1px #e8e8e8;
-		padding: 30px;
+		padding: 30px 0 30px 0;
 		margin: 1%;
 		font-family: 'Poiret One', cursive;
 }
 .piatto:hover{
 		background-color: #e8e8e8;
 }
+*/
 
 .ristorante{
 		border-radius: 20px;
@@ -125,3 +131,74 @@ font-family: 'Sacramento', cursive;
 		color: white;
 }
 
+.piatto{
+		font-family: 'Poiret One', cursive;
+		display: flex;
+		width: 80%;
+		flex-direction: column;
+		align-items: stretch;
+}
+.piatto_title_div{
+		text-align: center;
+		border-radius: 20px;
+		/*border-radius: 20px 20px 0 0;*/
+		box-shadow: 2px 2px 3px #cccccc;
+		border: solid 1px #e8e8e8;
+		padding: 30px;
+		font-family: 'Poiret One', cursive;
+		cursor: pointer;
+		margin-top: 2%;
+}
+.piatto_title_div:hover{
+		background-color: #e8e8e8;
+}
+.piatto_info{
+		display: none;
+		justify-content: space-around;
+		background-color: #cccccc;
+		width: 90%;
+		align-self: center;
+		padding: 2%;
+}
+.piatto_footer{
+		display: none;
+		justify-content: flex-end;
+		border-radius: 0 0 20px 20px;
+		box-shadow: 2px 2px 3px #cccccc;
+		border: solid 1px #e8e8e8;
+		padding: 5px;
+		margin-bottom: 2%;
+}
+.piatto_ingredienti{
+		background-color: white;
+		width: 20%;
+		padding: 2% 5% 5%;
+}
+.ingredienti_title{
+		margin: 0 0 2% -40%;
+    padding: 2% 10%;
+		background-color: red;
+		color: white;
+		align-self: flex-start;
+}
+.piatto_lista_ingredienti{}
+.piatto_price{
+		font-size: 3em;
+}
+.piatto_type{
+		font-size: 1.5em;
+		background-color: #F9EE5E;
+		align-self: flex-end;
+		padding: 0 8px 0 8px;
+		border-radius: 5px 5px 20px 5px;
+}
+.piatto_img{}
+
+#ristorante_info{
+		margin: 2% 1%;
+		font-family: 'Poiret One', cursive;
+}
+.rist_info_h1{
+		margin-top: 2%;
+}
+.rist_info_value{}

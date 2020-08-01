@@ -10,7 +10,7 @@
 				<div id="header">
 						<div id='name_logo'>
 								<img id="logo" src="media/logo.svg">
-								<h1>Titolo</h1>
+								<h1>Food To Go!</h1>
 						</div>
 						<form id="login_form" name="login_form" onsubmit="valid_login()">
 								<input id='cliente_radio' type="radio" name="user_type" value="clienti" required>
@@ -29,6 +29,24 @@
 						</div>
 						<div id="piatti_list">
 								<script>list_piatti_rist('');</script> 
+						</div>
+						<div id="ristorante_info" style="display: none;">
+								<div id="proprietario">
+										<h1 class="rist_info_h1">Propietario:</h1>
+										<h2 class="rist_info_value"></h2>
+								</div>
+								<div id="indirizzo">
+										<h1 class="rist_info_h1">Indirizzo:</h1>
+										<h2 class="rist_info_value"></h2>
+								</div>
+								<div id="p_IVA">
+										<h1 class="rist_info_h1">Partita IVA</h1>
+										<h2 class="rist_info_value"></h2>
+								</div>
+								<div id="tel">
+										<h1 class="rist_info_h1">Telefono:</h1>
+										<h2 class="rist_info_value"></h2>
+								</div>
 						</div>
 				</div>
 		</body>
