@@ -71,6 +71,7 @@ font-family: 'Sacramento', cursive;
 		padding: 10px;
 		font-family: 'Poiret One', cursive;
 		margin: 3%;
+		cursor: pointer;
 }
 .ristorante:hover{
 		background-color: #e8e8e8;
