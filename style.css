@@ -203,3 +203,17 @@ font-family: 'Sacramento', cursive;
 		margin-top: 2%;
 }
 .rist_info_value{}
+
+.user_img{
+		height: 130%;
+		cursor: pointer;
+}
+#user_info{
+		position: absolute;
+		z-index: 2;	
+		float: right;
+		width: 30%;
+		right: 30px;
+		background-color: #ededed;
+		border-radius: 5%;
+}

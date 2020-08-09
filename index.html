@@ -12,7 +12,7 @@
 								<img id="logo" src="media/logo.svg">
 								<h1>Food To Go!</h1>
 						</div>
-						<form id="login_form" name="login_form" onsubmit="valid_login()">
+						<form id="login_form" name="login_form" onsubmit="valid_login();" style='display: none;'>
 								<input id='cliente_radio' type="radio" name="user_type" value="clienti" required>
 								<label id="cliente_btn" for="cliente_radio">Cliente</label>
 								<input id="ristoratore_radio" type="radio" name="user_type" value="ristoratori" required>
@@ -22,6 +22,11 @@
 								<input type="password" name="password" placeholder="password" required>
 								<input type="submit">
 						</form>
+						<script>show_login();</script>
+				</div>
+				<div id="user_info" style="display: none;" >
+						INFORMAZIONI DEL CLIENTE:
+						Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</div>
 				<div id="page">
 						<div id="ristoranti_list">
