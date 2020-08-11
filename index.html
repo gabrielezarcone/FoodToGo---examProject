@@ -25,8 +25,23 @@
 						<script>show_login();</script>
 				</div>
 				<div id="user_info" style="display: none;" >
-						INFORMAZIONI DEL CLIENTE:
-						Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<div id='nome_cliente' data-key="nome">
+								<h1 class="cliente_info_h1">Nome:</h1>
+								<h2 class="cliente_info_value"></h2>
+						</div>
+						<div id='cognome_cliente' data-key="cognome">
+								<h1 class="cliente_info_h1">Cognome:</h1>
+								<h2 class="cliente_info_value"></h2>
+						</div>
+						<div id='preferenze_cliente' data-key="preferences">
+								<h1 class="cliente_info_h1">Preferenze:</h1>
+								<h2 class="cliente_info_value"></h2>
+						</div>
+						<div id='pagamento_cliente' data-key="pagamento">
+								<h1 class="cliente_info_h1">Metodo Pagamento:</h1>
+								<h2 class="cliente_info_value"></h2>
+						</div>
+						<script>fill_user_info()</script>
 				</div>
 				<div id="page">
 						<div id="ristoranti_list">
