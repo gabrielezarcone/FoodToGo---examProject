@@ -12,7 +12,7 @@
 								<img id="logo" src="media/logo.svg">
 								<h1>Food To Go!</h1>
 						</div>
-						<form id="login_form" name="login_form" onsubmit="valid_login()">
+						<form id="login_form" name="login_form" onsubmit="valid_login();" style='display: none;'>
 								<input id='cliente_radio' type="radio" name="user_type" value="clienti" required>
 								<label id="cliente_btn" for="cliente_radio">Cliente</label>
 								<input id="ristoratore_radio" type="radio" name="user_type" value="ristoratori" required>
@@ -22,6 +22,30 @@
 								<input type="password" name="password" placeholder="password" required>
 								<input type="submit">
 						</form>
+						<script>show_login();</script>
+				</div>
+				<div id="user_info" style="display: none;" >
+						<div id='nome_cliente' data-key="nome">
+								<h1 class="cliente_info_h1">Nome:</h1>
+								<h2 class="cliente_info_value" data-edit="true"></h2>
+						</div>
+						<div id='cognome_cliente' data-key="cognome">
+								<h1 class="cliente_info_h1">Cognome:</h1>
+								<h2 class="cliente_info_value" data-edit="true"></h2>
+						</div>
+						<div id='preferenze_cliente' data-key="preferences">
+								<h1 class="cliente_info_h1">Preferenze:</h1>
+								<h2 class="cliente_info_value" data-edit="true"></h2>
+						</div>
+						<div id='pagamento_cliente' data-key="pagamento">
+								<h1 class="cliente_info_h1">Metodo Pagamento:</h1>
+								<h2 class="cliente_info_h2">Tipo</h2>
+								<h3 class="cliente_info_h3" data-edit="true"></h3>
+								<h2 class="cliente_info_h2">Numero</h2>
+								<h3 class="cliente_info_h3" data-edit="true"></h3>
+						</div>
+						<div class="button change_user_info" onclick="change_user_info()">Cambia le informazioni</div>
+						<script>fill_user_info()</script>
 				</div>
 				<div id="page">
 						<div id="ristoranti_list">
@@ -47,6 +71,7 @@
 										<h1 class="rist_info_h1">Telefono:</h1>
 										<h2 class="rist_info_value"></h2>
 								</div>
+								<div id='recensioni'></div>
 						</div>
 				</div>
 		</body>
