@@ -217,3 +217,25 @@ font-family: 'Sacramento', cursive;
 		background-color: #ededed;
 		border-radius: 5%;
 }
+
+.button{
+	cursor: pointer;
+}
+.button:hover{
+	filter: brightness(85%);
+}
+
+.addPiattoButton{
+	background-color: #62c67b;
+}
+
+.float_window{
+	position: absolute;
+	top: 20%;
+	right: 20%;
+	left:20%;
+	bottom: 20%;
+	z-index: 3;
+	background-color: aliceblue;
+	padding: 5%;
+}
