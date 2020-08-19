@@ -217,3 +217,10 @@ font-family: 'Sacramento', cursive;
 		background-color: #ededed;
 		border-radius: 5%;
 }
+
+.button{
+	cursor: pointer;
+}
+.button:hover{
+	filter: brightness(60%);
+}
