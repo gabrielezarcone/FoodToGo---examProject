@@ -193,7 +193,9 @@ font-family: 'Sacramento', cursive;
 		padding: 0 8px 0 8px;
 		border-radius: 5px 5px 20px 5px;
 }
-.piatto_img{}
+.piatto_img{
+	width: 20%;
+}
 
 #ristorante_info{
 		margin: 2% 1%;
