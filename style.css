@@ -44,6 +44,7 @@ font-family: 'Sacramento', cursive;
 .piatti_list_title{
 		font-family: 'Fredoka One', cursive;
 		color: #545454;
+		margin-top: 3%;
 }
 /*
 .piatto{
@@ -193,7 +194,9 @@ font-family: 'Sacramento', cursive;
 		padding: 0 8px 0 8px;
 		border-radius: 5px 5px 20px 5px;
 }
-.piatto_img{}
+.piatto_img{
+	width: 20%;
+}
 
 #ristorante_info{
 		margin: 2% 1%;
@@ -238,4 +241,10 @@ font-family: 'Sacramento', cursive;
 	z-index: 3;
 	background-color: aliceblue;
 	padding: 5%;
+}
+
+.home_title{
+	margin: 5%;
+	font-family: 'Poiret One', cursive;
+	color: #f56e6e;
 }
