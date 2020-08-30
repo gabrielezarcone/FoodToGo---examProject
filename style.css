@@ -207,11 +207,19 @@ font-family: 'Sacramento', cursive;
 }
 .rist_info_value{}
 
-.user_img{
-		height: 130%;
-		cursor: pointer;
+#header_icons{
+	display: flex;
 }
-#user_info{
+.user_img{
+	width: 60%;
+	cursor: pointer;
+}
+.cart_img{
+	width: 60%;
+	cursor: pointer;
+}
+
+.float_menu{
 		position: absolute;
 		z-index: 2;	
 		float: right;
