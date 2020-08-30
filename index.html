@@ -26,9 +26,9 @@
 								<input type="password" name="password" placeholder="password" required>
 								<input type="submit">
 						</form>
-						<div id='header_icons'></div>
+						<div id='header_icons' style='display:none;'></div>
 				</div>
-				<div id="user_info" style="display: none;" >
+				<div id="user_info" class="float_menu" style="display: none;" >
 						<div id='nome_cliente' data-key="nome">
 								<h1 class="cliente_info_h1">Nome:</h1>
 								<h2 class="cliente_info_value" data-edit="true"></h2>
@@ -52,6 +52,7 @@
 						<div class="button" onclick="logOut()">Log Out</div>
 						<script>fill_user_info()</script>
 				</div>
+				<div id="cart" class="float_menu" style="display: none;" ></div>
 				<div id="page">
 						<div id="ristoranti_list">
 								<script>list_ristoranti();</script>

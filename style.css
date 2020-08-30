@@ -211,15 +211,15 @@ font-family: 'Sacramento', cursive;
 	display: flex;
 }
 .user_img{
-		height: 130%;
-		cursor: pointer;
+	width: 60%;
+	cursor: pointer;
 }
 .cart_img{
-	height: 130%;
+	width: 60%;
 	cursor: pointer;
 }
 
-#user_info{
+.float_menu{
 		position: absolute;
 		z-index: 2;	
 		float: right;
