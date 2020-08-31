@@ -265,3 +265,8 @@ font-family: 'Sacramento', cursive;
 	color: #FF324A;
 	font-size: 1.5em;
 }
+
+.buy_option{
+	margin: 6px;
+	border: solid;
+}
