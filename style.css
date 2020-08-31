@@ -260,3 +260,8 @@ font-family: 'Sacramento', cursive;
 .cart_piatto{
 	border: solid;
 }
+
+.eta{
+	color: #FF324A;
+	font-size: 1.5em;
+}
