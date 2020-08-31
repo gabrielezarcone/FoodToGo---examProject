@@ -87,6 +87,7 @@
          "tel":"026771345",
          "p_IVA":"09388490294",
          "indirizzo":"viale Monza, Milano",
+         "eta": 0,
          "recensioni":[
             {
                "cliente":"mrrs",
@@ -103,6 +104,7 @@
          "tel":"0267323245",
          "p_IVA":"09384522235",
          "indirizzo":"via Milano, Roma",
+         "eta": 0,
          "recensioni":[
             {
                "cliente":"anbn",
@@ -115,6 +117,7 @@
          "tel":"026441223",
          "p_IVA":"929233499988",
          "indirizzo":"via Roma, Milano",
+         "eta": 0,
          "recensioni":[
             {
                "cliente":"anbn",

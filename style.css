@@ -207,11 +207,19 @@ font-family: 'Sacramento', cursive;
 }
 .rist_info_value{}
 
-.user_img{
-		height: 130%;
-		cursor: pointer;
+#header_icons{
+	display: flex;
 }
-#user_info{
+.user_img{
+	width: 60%;
+	cursor: pointer;
+}
+.cart_img{
+	width: 60%;
+	cursor: pointer;
+}
+
+.float_menu{
 		position: absolute;
 		z-index: 2;	
 		float: right;
@@ -247,4 +255,18 @@ font-family: 'Sacramento', cursive;
 	margin: 5%;
 	font-family: 'Poiret One', cursive;
 	color: #f56e6e;
+}
+
+.cart_piatto{
+	border: solid;
+}
+
+.eta{
+	color: #FF324A;
+	font-size: 1.5em;
+}
+
+.buy_option{
+	margin: 6px;
+	border: solid;
 }
