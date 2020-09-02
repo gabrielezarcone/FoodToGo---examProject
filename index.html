@@ -55,6 +55,12 @@
 						<script>fill_user_info()</script>
 				</div>
 				<div id="cart" class="float_menu" style="display: none;" ></div>
+				<div id="search_bar" class="search_bar_div" style="display:none;">
+					<form id="search_form" onsubmit="event.preventDefault(); search();">
+						<input type="text">
+						<input type="submit">
+					</form>
+				</div>
 				<div id="page">
 						<div id="ristoranti_list">
 								<script>list_ristoranti();</script>
