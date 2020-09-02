@@ -278,3 +278,15 @@ font-family: 'Sacramento', cursive;
 	margin: 6px;
 	border: solid;
 }
+
+.header_menu{
+	z-index:3;
+	position: absolute;
+}
+
+#piatti_types_list{}
+.piatti_types_list_item{}
+
+
+
+
