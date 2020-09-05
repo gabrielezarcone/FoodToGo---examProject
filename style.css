@@ -209,14 +209,27 @@ font-family: 'Sacramento', cursive;
 
 #header_icons{
 	display: flex;
+	height: 100%;
+	width: 20%;
+	justify-content: flex-end;
 }
 .user_img{
-	width: 60%;
 	cursor: pointer;
+	height: 90%;
 }
 .cart_img{
-	width: 60%;
 	cursor: pointer;
+	height: 100%;
+}
+.search_img{
+	cursor: pointer;
+	height: 60%;
+	padding: 2%;
+}
+.orders_img{
+	cursor: pointer;
+	height: 70%;
+	margin-top:2%;
 }
 
 .float_menu{
@@ -270,3 +283,17 @@ font-family: 'Sacramento', cursive;
 	margin: 6px;
 	border: solid;
 }
+
+.header_menu{
+	z-index:3;
+	position: absolute;
+}
+
+#piatti_types_list{}
+.piatti_types_list_item{}
+
+.order_item{
+	border: solid;
+}
+
+
