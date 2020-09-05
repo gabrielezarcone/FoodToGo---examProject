@@ -226,6 +226,11 @@ font-family: 'Sacramento', cursive;
 	height: 60%;
 	padding: 2%;
 }
+.orders_img{
+	cursor: pointer;
+	height: 70%;
+	margin-top:2%;
+}
 
 .float_menu{
 		position: absolute;
@@ -287,6 +292,8 @@ font-family: 'Sacramento', cursive;
 #piatti_types_list{}
 .piatti_types_list_item{}
 
-
+.order_item{
+	border: solid;
+}
 
 

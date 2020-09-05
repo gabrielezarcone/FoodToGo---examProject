@@ -167,11 +167,15 @@
       {
          "cliente":"mrrs",
          "piatto":"patatine",
+         "ristorante": "McDonald";
+         "prezzo": 3;
          "data":"Tue Jun 30 2020 16:03:14 GMT+0200 (CEST)"
       },
       {
          "cliente":"anbn",
          "piatto":"hamburger",
+         "ristorante": "McDonald";
+         "prezzo": 5;
          "data":"Tue Jun 30 2020 09:20:21 GMT+0200 (CEST)"
       }
    ],
