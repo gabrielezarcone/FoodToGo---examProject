@@ -14,6 +14,10 @@ font-family: 'Grandstander', cursive;
 		padding: 0;
 }
 
+body{
+	overflow: hidden;
+}
+
 #header{
 		height: 5%;
 		background-color: #f56e6e/*#ad3d4e #3dad84*/;
@@ -43,6 +47,7 @@ font-family: 'Grandstander', cursive;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		overflow:auto;
 }
 .piatti_list_title{
 		font-family: 'Fredoka One', cursive;
@@ -250,6 +255,8 @@ font-family: 'Grandstander', cursive;
 	border-radius: 0 0 0 5%;
 	padding: 15px;
 	border-top: solid 20px #E45454;
+	overflow: auto;
+	max-height: 80%;
 }
 
 .button{
