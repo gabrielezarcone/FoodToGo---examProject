@@ -387,6 +387,27 @@ font-family: 'Grandstander', cursive;
 	border: 0;
 }
 
+.cart_btn{
+	text-align:center;
+	font-family: 'Fredoka One', cursive;
+	padding: 2%;
+}
+.buy_btn{
+	background-color: #0BC66B;
+	color: white;
+}
+.delete_elem_cart{
+	background-color: #E45454;
+	color: white;
+	margin-bottom: 7%;
+}
+.total_price {
+	font-family: 'Fredoka One', cursive;
+	font-size: 2.4em;
+	color: #f4b846;
+	text-align: center;
+}
+
 .order_item{
 	padding:5%;
 	border: solid 2px;
