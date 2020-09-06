@@ -300,6 +300,11 @@ font-family: 'Sacramento', cursive;
 .header_menu{
 	z-index:3;
 	position: absolute;
+	background-color: white;	
+	padding: 10px;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.3em;
+	border: solid 2px #e8e8e8;
 }
 
 #piatti_types_list{}
