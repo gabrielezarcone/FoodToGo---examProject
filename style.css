@@ -286,11 +286,10 @@ font-family: 'Grandstander', cursive;
 	color: #FF324A;
 	font-size: 1.5em;
 }
-
-.buy_option{
-	margin: 6px;
-	border: solid;
+.eta::after{
+	content: ' minuti'
 }
+
 
 .header_title{
 	margin: 5px;
@@ -437,6 +436,48 @@ font-family: 'Grandstander', cursive;
 }
 
 
+.buy_option{
+	margin: 6px;
+	padding: 7px;
+	background-color: white;
+}
+.buy_option_title{
+	text-align:center;
+	font-family: 'Fredoka One', cursive;
+}
+.buy_option_message{
+	padding:10px;
+	margin:5px;
+	font-family: 'Poiret One', cursive;
+	overflow-x: hidden;
+	overflow-y:	auto;
+}
+.option_btn{
+	text-align:center;
+	font-family: 'Fredoka One', cursive;
+	padding: 2%;
+}
+.prenota_btn{
+	background-color: #E45454;
+	color: white;
+}
+.takeaway_btn{
+	background-color: #E45454;
+	color: white;
+}
+.sum_eta{
+	background-color: #e8e8e8;
+	margin-top: 3px;
+}
+.sum_eta_rist{}
+.sum_eta_eta{
+	float: inline-end;
+	position: relative;
+	bottom: 20px;
+}
+.sum_eta_eta::after{
+	content: ' minuti'
+}
 
 
 
