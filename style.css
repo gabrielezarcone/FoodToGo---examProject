@@ -238,14 +238,16 @@ font-family: 'Sacramento', cursive;
 	margin-top:2%;
 }
 
-.float_menu{
-		position: absolute;
-		z-index: 3;	
-		float: right;
-		width: 30%;
-		right: 30px;
-		background-color: #ededed;
-		border-radius: 5%;
+.float_menu {
+	position: absolute;
+	z-index: 3;
+	float: right;
+	width: 30%;
+	right: 0;
+	background-color: #e8e8e8;
+	border-radius: 0 0 0 5%;
+	padding: 15px;
+	border-top: solid 20px #E45454;
 }
 
 .button{
@@ -341,6 +343,40 @@ font-family: 'Sacramento', cursive;
 	justify-content: flex-end;
 	background-color:#E45454;
 }
+
+.cliente_info_h1{
+	font-family: 'Poiret One', cursive;
+	color: #f56e6e;
+}
+.cliente_info_h2{
+	font-family: 'Poiret One', cursive;
+	padding-left:4%;
+	color: #2599FF;
+}
+.cliente_info_h3{
+	font-family: 'Poiret One', cursive;
+	padding-left:4%;
+}
+.cliente_info_value{
+	font-family: 'Poiret One', cursive;
+	padding:4%;
+}
+.user_info_button{
+	text-align:center;
+	font-family: 'Fredoka One', cursive;
+	padding: 2%;
+}
+.change_user_info{
+	margin-top: 10%;
+	background-color: #2599FF;
+	color: white;
+}
+.logout{
+	background-color: #E45454;
+	color: white;
+}
+
+
 
 
 
