@@ -23,6 +23,7 @@ font-family: 'Sacramento', cursive;
 #header h1{
 		color: white;	
 		font-family: 'Fredoka One', cursive;
+		flex-shrink: 0;
 }
 
 #page{
