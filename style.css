@@ -292,6 +292,11 @@ font-family: 'Sacramento', cursive;
 	border: solid;
 }
 
+.header_title{
+	margin: 5px;
+	padding:5px;
+	font-family: 'Poiret One', cursive;
+}
 .header_menu{
 	z-index:3;
 	position: absolute;
