@@ -77,6 +77,13 @@ font-family: 'Sacramento', cursive;
 .ristorante:hover{
 		background-color: #e8e8e8;
 }
+.add_ristorante{
+		background-color:#0ECC35;
+		border-color: #00B024;
+}
+.add_ristorante:hover{
+		background-color:#00B024;
+}
 
 #name_logo{
 		display: flex;
@@ -294,6 +301,13 @@ font-family: 'Sacramento', cursive;
 
 .order_item{
 	border: solid;
+}
+
+.close_btn{
+	float: right;
+	position: absolute;
+	right:-2%;
+	top: -4%;
 }
 
 
