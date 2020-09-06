@@ -338,6 +338,11 @@ font-family: 'Sacramento', cursive;
 	color: white;
 }
 
+.search_bar_div{
+	display: flex;
+	justify-content: flex-end;
+	background-color:#E45454;
+}
 
 
 
