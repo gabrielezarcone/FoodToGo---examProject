@@ -241,7 +241,7 @@ font-family: 'Sacramento', cursive;
 
 .float_menu{
 		position: absolute;
-		z-index: 2;	
+		z-index: 3;	
 		float: right;
 		width: 30%;
 		right: 30px;
@@ -266,7 +266,7 @@ font-family: 'Sacramento', cursive;
 	right: 20%;
 	left:20%;
 	bottom: 20%;
-	z-index: 3;
+	z-index: 2;
 	background-color: aliceblue;
 	padding: 5%;
 }
