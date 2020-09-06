@@ -321,4 +321,26 @@ font-family: 'Sacramento', cursive;
 	top: -4%;
 }
 
+#sign_div{
+	margin-left: 10px;
+}
+.sign_button{
+	font-family: 'Fredoka One', cursive;
+	border-radius: 3px;
+	padding: 0 5px 0 5px;
+	text-align: center;
+}
+.sign_accedi{
+	background-color: white;
+}
+.sign_registrati{
+	background-color: #2599FF;; /*#0997FB;*/
+	color: white;
+}
+
+
+
+
+
+
 
