@@ -494,13 +494,17 @@ body{
 }
 .create_input{
 	margin: 7px;
+	padding: 7px;
 }
 .create_submit{
 	background-color: #E45454;
 	color: white;
-	padding: 10px;
+	padding: 7px;
 	border: none;
 	font-family: 'Fredoka One', cursive;
+}
+.choose_user_type{
+	padding: 7px;
 }
 .pref_input{
 	color: white;
