@@ -488,6 +488,25 @@ body{
 	content: ' minuti'
 }
 
-
+.create_form{
+	margin-top: 6%;
+	font-family: 'Poiret One', cursive;
+}
+.create_input{
+	margin: 7px;
+}
+.create_submit{
+	background-color: #E45454;
+	color: white;
+	padding: 10px;
+	border: none;
+	font-family: 'Fredoka One', cursive;
+}
+.pref_input{
+	color: white;
+}
+.pref_input input{
+	margin: 7px;
+}
 
 
