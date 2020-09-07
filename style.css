@@ -512,5 +512,10 @@ body{
 .pref_input input{
 	margin: 7px;
 }
+.add_ristorante_title{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	margin: 5%;
+}
 
 
