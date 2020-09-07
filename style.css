@@ -40,6 +40,7 @@ body{
 #ristoranti_list{
 		background-color: #e8e8e8;	
 		padding: 1%;
+		overflow: auto;
 }
 #piatti_list{
 		margin-top: 2%;
@@ -277,7 +278,7 @@ body{
 	left:20%;
 	bottom: 20%;
 	z-index: 2;
-	background-color: aliceblue;
+	background-color: #283D50;
 	padding: 5%;
 	overflow-y: auto;
 	overflow-x: hidden;
@@ -415,6 +416,7 @@ body{
 }
 
 .order_item{
+	background-color: #e8e8e8;
 	padding:5%;
 	border: solid 2px;
 	border-radius: 20px;
