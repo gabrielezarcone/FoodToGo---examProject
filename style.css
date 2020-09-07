@@ -449,6 +449,7 @@ body{
 	margin: 6px;
 	padding: 7px;
 	background-color: white;
+	width: 50%;
 }
 .buy_option_title{
 	text-align:center;
@@ -475,15 +476,13 @@ body{
 	color: white;
 }
 .sum_eta{
+	display: flex;
+	justify-content: space-between;
 	background-color: #e8e8e8;
 	margin-top: 3px;
 }
 .sum_eta_rist{}
-.sum_eta_eta{
-	float: inline-end;
-	position: relative;
-	bottom: 20px;
-}
+.sum_eta_eta{}
 .sum_eta_eta::after{
 	content: ' minuti'
 }
