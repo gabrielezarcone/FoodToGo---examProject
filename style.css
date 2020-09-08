@@ -49,6 +49,7 @@ body{
 		flex-direction: column;
 		align-items: center;
 		overflow:auto;
+		padding-bottom: 4%;
 }
 .piatti_list_title{
 		font-family: 'Fredoka One', cursive;
