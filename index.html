@@ -8,12 +8,13 @@
 		<head>
 			<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 			<meta content="utf-8" http-equiv="encoding">
+			<link rel="icon" type="image/png" href="media/logo.svg"/>
 			<title>Food To Go!</title>
 		</head>
 		<body>
 				<div id="header">
 						<div id='name_logo'>
-								<img id="logo" src="media/logo.svg" class='button' onclick='location.reload();'>
+								<img id="logo" src="media/logo.svg" class='button' onclick='location.reload(true);'>
 								<h1>Food To Go!</h1>
 						</div>
 						<form id="login_form" name="login_form" onsubmit="valid_login();" style='display: none;'>
@@ -64,7 +65,10 @@
 				<div id="cart" class="float_menu" style="display: none;" ></div>
 				<div id="search_bar" class="search_bar_div" style="display:none;">
 					<form id="search_form" name"search_form" onsubmit="event.preventDefault(); search();">
-						<input type="text">
+						<input list="search_datalist" name="search_input" id="search_input">
+						<datalist id="search_datalist">
+							<script>show_piatti_option()</script>
+						</datalist>
 						<input type="submit" value="Cerca">
 					</form>
 				</div>

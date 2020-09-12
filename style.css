@@ -49,6 +49,7 @@ body{
 		flex-direction: column;
 		align-items: center;
 		overflow:auto;
+		padding-bottom: 4%;
 }
 .piatti_list_title{
 		font-family: 'Fredoka One', cursive;
@@ -287,7 +288,6 @@ body{
 .home_title{
 	margin: 5%;
 	font-family: 'Poiret One', cursive;
-	color: #f56e6e;
 }
 
 .eta{
@@ -350,7 +350,7 @@ body{
 
 .cliente_info_h1{
 	font-family: 'Fredoka One', cursive;
-	color: #E45454;
+	color: #303030;
 	font-size: 1.3em;
 }
 .cliente_info_h2{
@@ -449,6 +449,7 @@ body{
 	margin: 6px;
 	padding: 7px;
 	background-color: white;
+	width: 50%;
 }
 .buy_option_title{
 	text-align:center;
@@ -475,15 +476,13 @@ body{
 	color: white;
 }
 .sum_eta{
+	display: flex;
+	justify-content: space-between;
 	background-color: #e8e8e8;
 	margin-top: 3px;
 }
 .sum_eta_rist{}
-.sum_eta_eta{
-	float: inline-end;
-	position: relative;
-	bottom: 20px;
-}
+.sum_eta_eta{}
 .sum_eta_eta::after{
 	content: ' minuti'
 }
@@ -512,7 +511,7 @@ body{
 .pref_input input{
 	margin: 7px;
 }
-.add_ristorante_title{
+.float_window_title{
 	font-family: 'Poiret One', cursive;
 	color: white;
 	margin: 5%;
