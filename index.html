@@ -65,7 +65,10 @@
 				<div id="cart" class="float_menu" style="display: none;" ></div>
 				<div id="search_bar" class="search_bar_div" style="display:none;">
 					<form id="search_form" name"search_form" onsubmit="event.preventDefault(); search();">
-						<input type="text">
+						<input list="search_datalist" name="search_input" id="search_input">
+						<datalist id="search_datalist">
+							<script>show_piatti_option()</script>
+						</datalist>
 						<input type="submit" value="Cerca">
 					</form>
 				</div>
